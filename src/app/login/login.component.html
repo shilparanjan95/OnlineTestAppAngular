@@ -1,0 +1,43 @@
+<div class="container-fluid">
+<div class="row">
+      
+<!--<div class="col-md-7">
+
+</div> -->
+<div class="col-md-2">
+
+</div>
+<div class="col-md-8">
+     
+<div class="card">
+      <div style="color: red;background-color: aquamarine;text-align: center;"><b>{{msg}}</b></div>
+   <form [formGroup] = "loginForm"  (ngSubmit)="loginUser()">
+<div class="card-header">
+   <h3>Login Page </h3>  
+</div>
+<div class="card-body">
+    
+        <input type="text" formControlName="userName" class="form-control" placeholder=" Enter username "><br>
+        <input type="password" formControlName="password" class="form-control" placeholder=" Enter password "><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input style="width: 30%;" type="submit" value="Login" class="btn btn-success" [disabled]="loginForm.invalid">&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input style="width: 30%;" type="reset" value="Reset" class="btn btn-danger">
+   
+</div>
+<div class="card-footer bg-dark" >
+      <b><p *ngIf="(loginForm.controls.userName.touched && loginForm.controls.userName.invalid) || (loginForm.controls.password.touched && loginForm.controls.password.invalid)">
+Please enter both username and password to login.
+      
+      </p></b>
+      
+</div>
+</form>
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+</div>

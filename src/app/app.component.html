@@ -1,0 +1,77 @@
+<div *ngIf="isAdminNav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="admin">Admin Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " routerLink="addQuestion" href="#">Add Question</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="registeredUser" >View Registered Users</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " routerLink="result" >Result Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="login">Logout</a>
+        </li>
+        
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+</div>
+<div *ngIf="isUserNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="quiz">User Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " routerLink="html" >HTML Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="SQL" >SQL Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " routerLink="Java">Java Quiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="login">Logout</a>
+          </li>
+          
+        </ul>
+     
+      </div>
+    </div>
+  </nav>
+  </div>
+<div class="containter-fuild">
+  <div style="text-align:center;" class="bg-dark" >
+    <div *ngIf="isOuterNav">
+  <a routerLink="" class="link-info">Home</a> &nbsp; &nbsp;&nbsp;<a class="link-info" routerLink="login">Login</a> &nbsp; &nbsp;&nbsp;
+   <a routerLink="register">Register User</a> &nbsp; &nbsp;&nbsp; <a routerLink="contactUs">Contact Us</a>
+   
+  <!--<img src="/assets/Img/5187554.jpg" width="100%" height="400px">--> 
+
+  </div>
+</div>
+<hr>
+<h1 style="color: blue;margin-left:190px"> Welcome to SOT (Online Assessments)</h1>
+
+<div *ngIf="backg" >
+<img src="/assets/Img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" width="70%" style="margin-left:150px" >
+</div>
+
+<router-outlet></router-outlet>
+
+
+</div>

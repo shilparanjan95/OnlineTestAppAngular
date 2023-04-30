@@ -1,0 +1,20 @@
+h3{
+    color:cornflowerblue;
+    text-align: left;
+}
+
+h5{
+    color:cornflowerblue;
+    text-align: left;
+}
+
+p
+{
+    background-color: rgb(251, 255, 127);
+    height: 40px;
+    text-decoration: wavy;
+}
+body{
+    background-image: none;
+    background-color: aquamarine;
+}

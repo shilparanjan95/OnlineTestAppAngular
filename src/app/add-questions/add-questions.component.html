@@ -1,0 +1,38 @@
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-2">
+    
+    </div>
+    <div class="col-md-8">
+    <div class="card">
+    <div class="card-header">
+    <h3>Add Question</h3>
+    </div>
+    <div class="card-body">
+    <form [formGroup]="questionForm" (ngSubmit)="addQuestion()">
+        <label>Question Type</label><select formControlName="type" class="form-control" >
+            <option value="">Select type</option>
+            <option>HTML</option>
+            <option>Java</option>
+            <option>SQL</option>
+        </select><br>
+        <input type="text" placeholder="id" formControlName="id" class="form-control"><br>
+        <input type="text" placeholder="question" formControlName="question" class="form-control"><br>
+        <input type="text" placeholder="option1" formControlName="option1" class="form-control"><br>
+        <input type="text" placeholder="option2" formControlName="option2" class="form-control"><br>
+        <input type="text" placeholder="option3" formControlName="option3" class="form-control"><br>
+        <input type="text" placeholder="answer" formControlName="answer" class="form-control"><br>
+
+         <input type="submit" value="Add Question" class="btn btn-primary" [disabled]="questionForm.invalid"> &nbsp;&nbsp;
+         <input type="reset" value="Reset" class="btn btn-secondary" (click)="reset()">
+    </form>
+    </div>
+
+    </div>
+    <div class="col-md-2">
+    
+    </div>
+    </div>
+    </div>
+    </div>>
+    

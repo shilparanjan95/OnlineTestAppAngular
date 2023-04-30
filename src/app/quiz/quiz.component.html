@@ -1,0 +1,36 @@
+<div class="container-fluid">
+<div class="row">
+    
+ <div class="col-md-6">  
+    <h3>Welcome {{userName }}</h3>
+    <h5>{{day | date:"dd-MMM-yyyy" }}</h5>
+
+    <br>
+   
+<p><b>Avaliable Test Are</b> </p>
+
+<a routerLink="/html">HTML</a><br> 
+<a routerLink="/Java">JAVA</a><br>
+<a routerLink="/SQL">SQL</a><br>
+<br>
+<input type="button" (click)="saveQuiz()" value="Generate Final Report" class="btn btn-primary">
+
+</div>
+<div class="col-md-6">  
+    <p  style="background-color: #19843e; " *ngIf="finalStatus=='PASS'">Bravo ! {{userName }} </p>
+    <p  style="background-color: red; " *ngIf="finalStatus=='FAIL'">Better Luck Next Attempt {{userName }} </p>
+<p style="background-color: #19843e;" *ngIf="finalStatus!='NA'"><b>Result</b> {{finalStatus}} </p>
+<p style="background-color: #19843e;"  *ngIf="finalStatus!='NA'"><b>Score</b> {{score}} </p>
+
+
+<p *ngIf="htmlScore!=null"><b>HTML score</b> {{htmlScore}} </p>
+<p *ngIf="javaScore!=null"><b>Java score</b> {{javaScore}} </p>
+<p *ngIf="sqlScore!=null"><b>SQL score</b> {{sqlScore}} </p>
+<br>
+
+</div>
+
+
+   
+</div>
+</div>

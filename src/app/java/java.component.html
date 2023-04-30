@@ -1,0 +1,67 @@
+
+<div class="container-fluid">
+    <div class="row">
+    <div  class="col-md-1">
+   
+    </div>
+   <div class="bg-badge" class="col-md-10">
+        <div class="card">
+
+            <div class="card-header">
+                <h1>Java Quiz</h1>
+             </div>
+             <div>
+   <form [formGroup]="javaForm"  >
+      
+       <div *ngFor = "let html of questions  ; let i = index" >
+         
+           <div [hidden]= "!(html.id==step)">
+           <p style="color:#2e0f76"> {{html.id}} : {{html.question}} </p>
+        <br>
+        <!--
+       <select    #ans (change)="onSelected(ans.value)" formControlName="selectedAnswer" class="form-control">
+           <option>Select Answer</option>
+         <option >{{html.option1}}</option>
+         <option>{{html.option2}}</option>
+         <option>{{html.option3}}</option>
+        </select>
+        -->
+           
+           <input  [(ngModel)]="selectedValue" type="radio"  [value]="html.option1" formControlName="selectedAnswer"> {{ html.option1 }}<br>
+           <input  [(ngModel)]="selectedValue" type="radio"  [value]="html.option2" formControlName="selectedAnswer"> {{ html.option2 }}<br>
+           <input  [(ngModel)]="selectedValue" type="radio"  [value]="html.option3" formControlName="selectedAnswer"> {{ html.option3 }}<br>
+   
+       
+   
+        <!--  <input type="radio"  formControlName="selectedAnswer"  value="html.option1" id="html.option1">
+           <label for="vehicle1"> {{html.option1}}</label><br>
+           <input type="radio"  formControlName="selectedAnswer"   value="html.option2" id="html.option2">
+           <label for="vehicle1"> {{html.option2}}</label><br>
+           <input type="radio"  formControlName="selectedAnswer"  value="html.option3" id="html.option3">
+           <label for="vehicle1"> {{html.option3}}</label><br>
+   
+           {{selectedAnswer}}
+        -->
+        
+        <button  (click)="next(html.answer)">Next</button>
+        <br>
+        <br>
+        </div>
+       </div>
+       &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+       <button (click) = "quiz()" class="btn  btn-secondary">Back To Quiz Page</button>
+   
+       
+       <!-- {{htmlScore}} -->
+   </form>
+</div>
+   </div>
+   
+   </div>
+   
+   <div  class="col-md-1">
+   
+   </div>
+
+   </div>
+   </div>

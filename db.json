@@ -1,0 +1,325 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "userName": "shilpa",
+      "email": "shilparanjan@gmail.com",
+      "password": "shilpa"
+    },
+    {
+      "id": 2,
+      "userName": "ranjan",
+      "email": "shilparanjan@gmail.com",
+      "password": "ranjan"
+    },
+    {
+      "id": "5",
+      "email": "sss@yahoo.com",
+      "userName": "xxxx",
+      "password": "aaaaaa"
+    },
+    {
+      "id": "3",
+      "email": "test@gmai",
+      "userName": "test",
+      "password": "test"
+    },
+    {
+      "id": "9",
+      "email": "r@g",
+      "userName": "s",
+      "password": "k"
+    },
+    {
+      "id": "4",
+      "email": "shkiharani@gmail.com",
+      "userName": "shikha",
+      "password": "shikha"
+    },
+    {
+      "id": "0",
+      "email": "admin@yahoo.com",
+      "userName": "admin",
+      "password": "admin@123"
+    },
+    {
+      "id": "7",
+      "email": "john@g",
+      "userName": "john",
+      "password": "john"
+    },
+    {
+      "id": "6",
+      "email": "test1@test.com",
+      "userName": "test1",
+      "password": "test"
+    },
+    {
+      "id": "10",
+      "email": "john@GMAIL.COM",
+      "userName": "john",
+      "password": "doe"
+    },
+    {
+      "id": "11",
+      "email": "test@GMAIL.COM",
+      "userName": "shipra",
+      "password": "shipra"
+    },
+    {
+      "id": "qqq",
+      "email": "sr@test.com",
+      "userName": "sr",
+      "password": "sr"
+    },
+    {
+      "id": "xqw",
+      "email": "ritesh1786@GMAIL.COM",
+      "userName": "ritesh",
+      "password": "ritesh"
+    }
+  ],
+  "HTML": [
+    {
+      "id": "2",
+      "question": "Who is the father of HTML?",
+      "option1": "Rasmus Lerdorf",
+      "option2": "Tim Berners-Lee",
+      "option3": "Brendan Eich",
+      "answer": "Tim Berners-Lee",
+      "type": "HTML"
+    },
+    {
+      "id": "3",
+      "question": "HTML stands for __________",
+      "option1": "HyperText Markup Language",
+      "option2": "HyperText Machine Language",
+      "option3": "HyperText Marking Language",
+      "answer": "HyperText Markup Language",
+      "type": "HTML"
+    },
+    {
+      "id": 1,
+      "question": "What is HTML?",
+      "option1": "HTML describes the structure of a webpage",
+      "option2": "HTML is the standard markup language mainly used to create web pages",
+      "option3": "All of the mentioned",
+      "answer": "All of the mentioned",
+      "isHidden": false
+    },
+    {
+      "id": "4",
+      "question": "Which of the following element is responsible for making the text bold in HTML?",
+      "option1": "<pre>",
+      "option2": "<a>",
+      "option3": "<b>",
+      "answer": "<b>",
+      "type": "HTML"
+    },
+    {
+      "id": "5",
+      "question": "Which of the following tag is used to insert a line-break in HTML?",
+      "option1": "<br>",
+      "option2": "<pre>",
+      "option3": "<b>",
+      "answer": "<br>",
+      "type": "HTML"
+    }
+  ],
+  "JAVA": [
+    {
+      "id": "2",
+      "question": "Java started in ",
+      "option1": "1996",
+      "option2": "1995",
+      "option3": "1880",
+      "answer": "1995",
+      "type": "Java"
+    },
+    {
+      "id": "4",
+      "question": "When an array is passed to a method, what does the method receive?",
+      "option1": "reference",
+      "option2": "copy of array",
+      "option3": "length of array",
+      "answer": "reference",
+      "type": "Java"
+    },
+    {
+      "id": "5",
+      "question": " Arrays in java are-",
+      "option1": "object references",
+      "option2": "objects",
+      "option3": "primitive",
+      "answer": "object references",
+      "type": "Java"
+    },
+    {
+      "id": 1,
+      "question": "Java Lambda exp is part of ?",
+      "option1": "1.2",
+      "option2": "1.8",
+      "option3": "1.9",
+      "answer": "1.8"
+    },
+    {
+      "id": "3",
+      "question": "Which of the following is mostly used  ",
+      "option1": "8",
+      "option2": "9",
+      "option3": "6",
+      "answer": "8",
+      "type": "Java"
+    }
+  ],
+  "SQL": [
+    {
+      "id": "2",
+      "question": "  Which of the following are some common RDBMS in use?",
+      "option1": "Oracle",
+      "option2": "MySQL",
+      "option3": "Both",
+      "answer": "Both",
+      "type": "SQL"
+    },
+    {
+      "id": "3",
+      "question": "Which SQL function is used to count the number of rows in a SQL query?",
+      "option1": "NUMBER()",
+      "option2": "SUM()",
+      "option3": "COUNT(*)",
+      "answer": "COUNT(*)",
+      "type": "SQL"
+    },
+    {
+      "id": "4",
+      "question": "Which of the following SQL clauses is used to DELETE tuples from a database table?",
+      "option1": "DELETE",
+      "option2": "REMOVE",
+      "option3": "DROP",
+      "answer": "DELETE",
+      "type": "SQL"
+    },
+    {
+      "id": "5",
+      "question": "Which of the following is not a DDL command?",
+      "option1": "UPDATE",
+      "option2": "ALTER",
+      "option3": "TURNCATE",
+      "answer": "UPDATE",
+      "type": "SQL"
+    },
+    {
+      "id": 1,
+      "question": "What command is used to create a new table in SQL?",
+      "option1": "Create",
+      "option2": "Build",
+      "option3": "Generate",
+      "answer": "Create"
+    }
+  ],
+  "Result": [
+    {
+      "score": "6",
+      "result": "FAIL",
+      "userName": "ranjan",
+      "id": "2"
+    },
+    {
+      "score": "6",
+      "result": "FAIL",
+      "userName": "shilpa",
+      "id": "1"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "shilpa",
+      "id": "yK22MrH"
+    },
+    {
+      "score": "13",
+      "result": "PASS",
+      "userName": "john",
+      "id": "FG76G1e"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "john",
+      "id": "iK1x4pv"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "john",
+      "id": "FS5896V"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "john",
+      "id": "3F7M1hW"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "john",
+      "id": "O_8cl6j"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "shipra",
+      "id": "b3Xe1i6"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "shipra",
+      "id": "UIir_xQ"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "sr",
+      "id": "EkLCx5S"
+    },
+    {
+      "score": "NaN",
+      "result": "FAIL",
+      "userName": "ritesh",
+      "id": "qS1FLPy"
+    },
+    {
+      "score": "12",
+      "result": "PASS",
+      "userName": "ritesh",
+      "id": "DIwWtKy"
+    },
+    {
+      "score": "NaN",
+      "result": "FAIL",
+      "userName": "shilpa",
+      "id": "o2FWOvC"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "shilpa",
+      "id": "3V6BNbL"
+    },
+    {
+      "score": "NaN",
+      "result": "FAIL",
+      "userName": "shilpa",
+      "id": "Am1mMQa"
+    },
+    {
+      "score": "14",
+      "result": "PASS",
+      "userName": "shilpa",
+      "id": "DwSiiSt"
+    }
+  ]
+}

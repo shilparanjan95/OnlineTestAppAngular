@@ -1,0 +1,27 @@
+<div class="container-fluid">
+    <div class="row">
+    <div class="col-md-2">
+    
+    </div>
+    <div class="col-md-8">
+    <div class="card">
+    <div class="card-header">
+    <h1>Contact Us</h1>
+    </div>
+    <div class="card-body">
+    <form [formGroup]="contactForm" (ngSubmit)="contact()">
+        <input type="text" placeholder="user name" formControlName="userName" class="form-control"><br>
+        <input type="email" placeholder="email" formControlName="email" class="form-control" required><br>
+        <textarea  placeholder="Add your comment" formControlName="comment" class="form-control"></textarea><br>
+        <input type="submit" value="Contact Us" class="btn btn-primary" [disabled]="contactForm.invalid"> &nbsp;&nbsp;
+        
+    </form>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-2">
+    
+    </div>
+    </div>
+    </div>
+    

@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: aliceblue;
+}
+
+  .card-header
+  {
+background-color: orchid;
+  }
+
+  .card-footer
+  {
+background-color: rgb(58, 54, 54);
+color:red;
+  }
+
+  input.ng-touched.ng-invalid
+  {
+    border: 2px solid red;
+  }
+  input.ng-touched.ng-valid
+  {
+    border: 2px solid green;
+  }
+  select.ng-touched.ng-invalid
+  {
+    border: 2px solid red;
+  }
+  select.ng-touched.ng-valid
+  {
+    border: 2px solid green;
+  }
+  textarea.ng-touched.ng-invalid
+  {
+    border: 2px solid red;
+  }
+  textarea.ng-touched.ng-valid
+  {
+    border: 2px solid green;
+  }
